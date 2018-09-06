@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JavaToKotlin</string>
+    <string name="et_hint_name">Dein Name…</string>
+    <string name="sag_hallo">Sag Hallo</string>
+    <string name="tv_hint_text">Trage deinen Namen ein und drücke auf den Button!</string>
+    <string name="tv_error_text">Ohne Namen kann ich dich nicht grüßen!</string>
+    <string name="text_greetin">Hi %s die Diven von diva-e grüßen dich.</string>
+</resources>
