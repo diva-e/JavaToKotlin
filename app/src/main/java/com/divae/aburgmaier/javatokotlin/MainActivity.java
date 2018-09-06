@@ -26,10 +26,9 @@ public class MainActivity extends AppCompatActivity {
                     tvDisplay.setText(R.string.tv_error_text);
                     tvDisplay.setTextColor(Color.RED);
                 } else {
-                    String name = etName.getText().toString();
-                    name = name.trim();
+                    DivaGreeter greeter = new DivaGreeter(etName.getText().toString());
                     tvDisplay.setTextColor(Color.GRAY);
-                    tvDisplay.setText(getString(R.string.text_greetin, name));
+                    tvDisplay.setText(greeter.greet());
                     etName.getText().clear();
                 }
             }
